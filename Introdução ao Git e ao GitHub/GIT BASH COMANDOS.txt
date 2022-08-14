@@ -1,0 +1,30 @@
+GIT BASH COMANDOS
+
+ssh-keygen -t ed25519 -C "COLOCA E-MAIL" = COMANDO PRA GERAR CHAVE SSH PRO GITHUB
+
+cat id_ed25519.pub = COMANDO PRA VISUALIZAR A CHAVE E COLA NO GITHUB
+
+eval $(ssh-agent -s) = COMNANDO PRA INICIALIZAR SSH AGENT QUE VAI FICA ENCAREEGADO DAS CHAVES PRIVADAS
+
+ls = COMANDO DIR NO GIT
+
+ls -a = COMANDO DIR PRA MOSTRA PASTA OCULTAS
+
+Ctrl + L = LIMPA OS COMANDOS DIGITADOS
+
+git init = você usa durante a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório . git no diretório de trabalho atual.
+
+git commit = O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento.
+
+git commit -m = para adicionar comentarios usa aspas duplas no comentario
+
+git clone <url de clonagem> = clona um repositorio remoto para diretorio local
+
+git status = verifica status do diretorio pra saber se for feito mudanças
+
+git push = envia repositorio pra nuvem 
+
+git remote -v = mostras as alias cadastrado no repositorio
+
+git remote add <alias> <coloca url do repositorio vazio> = para da alias repositorio criado na nuvem
+
